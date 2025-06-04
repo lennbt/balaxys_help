@@ -137,24 +137,21 @@ const Monedas: React.FC = () => {
             Aquí algunos artículos y guías relacionadas con la gestión de monedas en Balaxys:
             <ul>
               <li>
-                <Link href="/productos" sx={{ textDecoration: "none", color: "#1976d2" }}>
+                <Link href="/inventario/crear-producto"  sx={{ textDecoration: "none", color: "#1976d2" }}>
                   Agregar un nuevo producto
                 </Link>
               </li>
               <li>
-                <Link href="/ajustes-inventario" sx={{ textDecoration: "none", color: "#1976d2" }}>
+                <Link href="/inventario/ajuste-inventario" sx={{ textDecoration: "none", color: "#1976d2" }}>
                   Ajustes de inventario
                 </Link>
               </li>
               <li>
-                <Link href="/productos-orden-compra" sx={{ textDecoration: "none", color: "#1976d2" }}>
-                  Crear una orden de compra
+                <Link href="/proveedores/crear-factura-compra"sx={{ textDecoration: "none", color: "#1976d2" }}>
+                  Crear una factura de compra
                 </Link>
-              </li>
-              <li>
-                <Link href="/productos-listas-precios" sx={{ textDecoration: "none", color: "#1976d2" }}>
-                  Consultas de precios y descuentos
-                </Link>
+              
+             
               </li>
             </ul>
           </Typography>

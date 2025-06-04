@@ -99,10 +99,10 @@ const ProductosTipos = () => {
             <Typography variant="body1" sx={{ marginBottom: "16px", textAlign: "justify" }}>
               Aquí algunos artículos y guías relacionadas con la gestión de productos en Balaxys:
               <ul>
-                <li><Link href="/productos">Ver todos los productos</Link></li>
+                <li><Link href="/inventario/crear-producto" >Crear un Productos o Servicio</Link></li>
                 <li><Link href="/inventario">Gestionar inventarios</Link></li>
-                <li><Link href="/productos-orden-compra">Crear una orden de compra</Link></li>
-                <li><Link href="/productos-listas-precios">Consultas de precios y descuentos</Link></li>
+                <li><Link href="/proveedores/orden-de-compra">Crear una orden de compra</Link></li>
+             
               </ul>
             </Typography>
             <Divider sx={{ margin: "16px 0" }} />

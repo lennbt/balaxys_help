@@ -339,8 +339,8 @@ const AjustesInventario = () => {
         </Link>
       </li>
       <li>
-        <Link href="/inventario" sx={{ textDecoration: "none", color: "#1976d2" }}>
-          Ajustes de Inventario
+        <Link href="/inventario/inventario" sx={{ textDecoration: "none", color: "#1976d2" }}>
+          Sección Inventario
         </Link>
       </li>
     </ul>

@@ -1,43 +1,70 @@
-import React from "react";
+// src/components/Navbar.tsx
+
+import React, { useEffect, useRef } from "react";
 import { AppBar, Toolbar, Typography, TextField, InputAdornment } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
+import { useNavigate, useLocation } from "react-router-dom";
 
 interface NavbarProps {
   setSearch: (value: string) => void;
 }
 
 const Navbar: React.FC<NavbarProps> = ({ setSearch }) => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const firstTypeRef = useRef(true);
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const valor = e.target.value;
+    setSearch(valor);
+
+    // Si es la primera vez que escribe y no está ya en "/", vamos a "/"
+    if (firstTypeRef.current && valor.trim() !== "") {
+      firstTypeRef.current = false;
+      if (location.pathname !== "/") {
+        navigate("/");
+      }
+    }
+
+    // Si borra todo y deja vacío, volvemos a permitir redirigir la próxima vez
+    if (valor.trim() === "") {
+      firstTypeRef.current = true;
+    }
+  };
+
   return (
     <AppBar
       position="static"
       sx={{
-        backgroundImage: "linear-gradient(to right, #0A2472,rgb(22, 112, 202))", // Agrega el degradado aquí
+        width: "100%",
+        backgroundImage: "linear-gradient(to right, #0A2472, rgb(22, 112, 202))",
         height: "200px",
         display: "flex",
-        justifyContent: "center", // Centra el contenido
-        alignItems: "center", // Centra el contenido verticalmente
-        padding: "0 20px", // Ajusta el padding si es necesario
+        justifyContent: "center",
+        alignItems: "center",
+        p: 0,
+        m: 0,
       }}
     >
       <Toolbar
         sx={{
           display: "flex",
-          flexDirection: "column", // Hace que los elementos se apilen verticalmente
-          alignItems: "center", // Centra los elementos horizontalmente
+          flexDirection: "column",
+          alignItems: "center",
           justifyContent: "center",
           width: "100%",
+          mx: 0,
         }}
       >
         <Typography variant="h4" gutterBottom sx={{ fontWeight: 700, textAlign: "center" }}>
           Guía de usuario para aprender todo de Balaxys
         </Typography>
 
-        {/* Barra de búsqueda centrada debajo del texto */}
         <TextField
           variant="outlined"
           size="small"
           placeholder="Buscar artículos..."
-          onChange={(e) => setSearch(e.target.value)} // Actualiza el estado de búsqueda
+          onChange={handleInputChange}
           InputProps={{
             startAdornment: (
               <InputAdornment position="start">
@@ -48,8 +75,8 @@ const Navbar: React.FC<NavbarProps> = ({ setSearch }) => {
           sx={{
             backgroundColor: "white",
             borderRadius: "4px",
-            width: "50%", // Hace que el campo de búsqueda ocupe el 50% del ancho disponible
-            marginTop: "20px", // Espacio entre el texto y la barra de búsqueda
+            width: "50%",
+            mt: 2,
           }}
         />
       </Toolbar>

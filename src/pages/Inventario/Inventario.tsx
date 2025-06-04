@@ -38,7 +38,24 @@ const inventoryDetails  = [
     description: "Asigna precios adicionales a productos y a tus contactos, manteniendo tu tarifa principal.",
     redirectPath: "/productos-listas-precios",
   }, 
- 
+
+    {
+    title: "Vales de Salida",
+    description: "Aprende a registrar Vales de Salida en Balaxys ERP: Insumos, Transferencias, Activos Fijos y Útiles.",
+    redirectPath: "/inventario/vales-salida",
+  }, 
+
+      {
+    title: "Devolución Vales de Salida",
+    description: "Aprende a realizar una devolución de vale de salida en Balaxys ERP. Rectificar o ajustra un error en tu inventario",
+    redirectPath:  "/inventario/devolucion-vale-salida",
+  }, 
+
+      {
+    title: "Ajustes de Inventario",
+    description: "Realiza ajustes de inventario para corregir discrepancias y mantener un control preciso de tus existencias.",
+    redirectPath: "/inventario/ajuste-inventario",
+  }, 
  
 
 ];

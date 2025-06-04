@@ -157,17 +157,17 @@ const MiPerfil = () => {
             Aquí algunos artículos y guías relacionadas con la gestión de empleados en Balaxys:
             <ul>
               <li>
-                <Link href="/usuarios" sx={{ textDecoration: "none", color: "#1976d2" }}>
+                <Link href="/perfil-empresa/usuarios"  sx={{ textDecoration: "none", color: "#1976d2" }}>
                   Crear un nuevo usuario o empleado
                 </Link>
               </li>
               <li>
-                <Link href="/roles" sx={{ textDecoration: "none", color: "#1976d2" }}>
+                <Link href="/perfil-empresa/roles" sx={{ textDecoration: "none", color: "#1976d2" }}>
                   Roles de usuarios
                 </Link>
               </li>
               <li>
-                <Link href="/configuracion" sx={{ textDecoration: "none", color: "#1976d2" }}>
+                <Link href="/perfil-empresa/tipos-de-empresas"sx={{ textDecoration: "none", color: "#1976d2" }}>
                   Ajustes de empresa
                 </Link>
               </li>

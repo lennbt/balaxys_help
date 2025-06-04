@@ -111,12 +111,12 @@ const FormasDePago = () => {
           </Typography>
           <List>
             <ListItem>
-              <Link href="/metodos-de-pago" sx={{ textDecoration: "none", color: "#1976d2" }}>
-                <ListItemText primary="Métodos de Pago: Guía completa" />
+              <Link href="/perfil-empresa/monedas" sx={{ textDecoration: "none", color: "#1976d2" }}>
+                <ListItemText primary="Monedas en Balaxys" />
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="/vencimientos" sx={{ textDecoration: "none", color: "#1976d2" }}>
+              <Link href="/perfil-empresa/vencimientos" sx={{ textDecoration: "none", color: "#1976d2" }}>
                 <ListItemText primary="Crear un nuevo vencimiento" />
               </Link>
             </ListItem>

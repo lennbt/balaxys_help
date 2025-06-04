@@ -112,13 +112,13 @@ const TiposContribuyentes = () => {
           </Typography>
           <List>
             <ListItem>
-              <Link href="/configuracion-iva" sx={{ textDecoration: "none", color: "#1976d2" }}>
-                <ListItemText primary="Configuración de IVA y Retenciones" />
+              <Link href="/impuestos/tipos-de-impuestos" sx={{ textDecoration: "none", color: "#1976d2" }}>
+                <ListItemText primary="Tipos de impuestos IVA y Retenciones" />
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="/tipos-de-empresas" sx={{ textDecoration: "none", color: "#1976d2" }}>
-                <ListItemText primary="Guía de Facturación Electrónica" />
+              <Link href="/perfil-empresa/tipos-de-contribuyentes" sx={{ textDecoration: "none", color: "#1976d2" }}>
+                <ListItemText primary="Tipos de contribuyentes " />
               </Link>
             </ListItem>
           </List>

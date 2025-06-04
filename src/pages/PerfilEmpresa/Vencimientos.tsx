@@ -110,13 +110,13 @@ const Vencimientos = () => {
           </Typography>
           <List>
             <ListItem>
-              <Link href="/elementos-de-gastos" sx={{ textDecoration: "none", color: "#1976d2" }}>
-                <ListItemText primary="Gestionar Elementos de Gastos" />
+              <Link href="/proveedores/crear-factura-compra" sx={{ textDecoration: "none", color: "#1976d2" }}>
+                <ListItemText primary="Gestionar facturas de compras" />
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="/alertas-vencimientos" sx={{ textDecoration: "none", color: "#1976d2" }}>
-                <ListItemText primary="Alertas de Vencimientos en Balaxys" />
+              <Link href="/inventario/crear-producto"  sx={{ textDecoration: "none", color: "#1976d2" }}>
+                <ListItemText primary="Crear un producto nuevo" />
               </Link>
             </ListItem>
           </List>

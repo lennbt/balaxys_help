@@ -182,35 +182,27 @@ A través de la sección de Inventario, los usuarios pueden controlar el stock d
     Aquí algunos artículos y guías relacionadas con la gestión de productos en Balaxys:
     <ul>
       <li>
-        <Link href="/productos" sx={{ textDecoration: "none", color: "#1976d2" }}>
+        <Link href="/inventario/productos"sx={{ textDecoration: "none", color: "#1976d2" }}>
           Productos y Servicios en Balaxys
         </Link>
       </li>
       <li>
-        <Link href="/ajustes-inventario" sx={{ textDecoration: "none", color: "#1976d2" }}>
+        <Link href="/inventario/ajuste-inventario" sx={{ textDecoration: "none", color: "#1976d2" }}>
           Ajustes de Inventario
         </Link>
       </li>
       <li>
-        <Link href="/vales-salida" sx={{ textDecoration: "none", color: "#1976d2" }}>
+        <Link href="/inventario/vales-salida" sx={{ textDecoration: "none", color: "#1976d2" }}>
           Vales de Salida
         </Link>
       </li>
+      
       <li>
-        <Link href="/analisis-inventario" sx={{ textDecoration: "none", color: "#1976d2" }}>
-          Análisis de Inventario
-        </Link>
-      </li>
-      <li>
-        <Link href="/devolucion-vales" sx={{ textDecoration: "none", color: "#1976d2" }}>
+        <Link href="/inventario/devolucion-vale-salida" sx={{ textDecoration: "none", color: "#1976d2" }}>
           Devolución de Vales de Salida
         </Link>
       </li>
-      <li>
-        <Link href="/listas-precios" sx={{ textDecoration: "none", color: "#1976d2" }}>
-          Listas de Precios
-        </Link>
-      </li>
+    
     </ul>
   </Typography>
   <Divider sx={{ margin: "16px 0" }} />

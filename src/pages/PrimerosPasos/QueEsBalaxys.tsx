@@ -142,25 +142,21 @@ const QueEsBalaxys = () => {
     Aquí algunos artículos y guías relacionadas con el uso de Balaxys:
     <ul>
       <li>
-        <Link href="/productos" sx={{ textDecoration: "none", color: "#1976d2" }}>
+        <Link href="/inventario/productos" sx={{ textDecoration: "none", color: "#1976d2" }}>
           Productos y Servicios en Balaxys
         </Link>
       </li>
       <li>
-        <Link href="/ajustes-inventario" sx={{ textDecoration: "none", color: "#1976d2" }}>
+        <Link href="/inventario/ajuste-inventario"  sx={{ textDecoration: "none", color: "#1976d2" }}>
           Ajustes de inventarios
         </Link>
       </li>
       <li>
-        <Link href="/productos-orden-compra" sx={{ textDecoration: "none", color: "#1976d2" }}>
+        <Link href="/proveedores/orden-de-compra" sx={{ textDecoration: "none", color: "#1976d2" }}>
           Crear una orden de compra
         </Link>
       </li>
-      <li>
-        <Link href="/productos-listas-precios" sx={{ textDecoration: "none", color: "#1976d2" }}>
-          Consultas de precios y descuentos
-        </Link>
-      </li>
+      
     </ul>
   </Typography>
   <Divider sx={{ margin: "16px 0" }} />

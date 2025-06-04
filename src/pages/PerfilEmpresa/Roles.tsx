@@ -165,17 +165,17 @@ const NuevoRol = () => {
             Aquí algunos artículos y guías relacionadas con la gestión de empleados en Balaxys:
             <ul>
               <li>
-                <Link href="/empleados" sx={{ textDecoration: "none", color: "#1976d2" }}>
+                <Link href="/perfil-empresa/usuarios"sx={{ textDecoration: "none", color: "#1976d2" }}>
                   Añadir un nuevo Empleado
                 </Link>
               </li>
               <li>
-                <Link href="/roles" sx={{ textDecoration: "none", color: "#1976d2" }}>
-                  Gestionar roles de usuarios
+                <Link href="/perfil-empresa/planes" sx={{ textDecoration: "none", color: "#1976d2" }}>
+                  Gestionar Planes
                 </Link>
               </li>
               <li>
-                <Link href="/ajustes-empresa" sx={{ textDecoration: "none", color: "#1976d2" }}>
+                <Link href="/perfil-empresa/configuracion" sx={{ textDecoration: "none", color: "#1976d2" }}>
                   Configuración  de empresa
                 </Link>
               </li>

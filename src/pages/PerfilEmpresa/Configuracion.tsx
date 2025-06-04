@@ -173,25 +173,21 @@ const Configuracion = () => {
     Aquí algunos artículos y guías relacionadas con el uso de Balaxys:
     <ul>
       <li>
-        <Link href="/planes" sx={{ textDecoration: "none", color: "#1976d2" }}>
+        <Link href="/perfil-empresa/planes"  sx={{ textDecoration: "none", color: "#1976d2" }}>
           Los planes de suscripción en Balaxys
         </Link>
       </li>
       <li>
-        <Link href="/usuarios" sx={{ textDecoration: "none", color: "#1976d2" }}>
+        <Link href="/perfil-empresa/usuarios"sx={{ textDecoration: "none", color: "#1976d2" }}>
           Crear usuarios en el sistema
         </Link>
       </li>
       <li>
-        <Link href="/roles" sx={{ textDecoration: "none", color: "#1976d2" }}>
+        <Link href="/perfil-empresa/roles" sx={{ textDecoration: "none", color: "#1976d2" }}>
           Crear nuevos Roles en Balaxys
         </Link>
       </li>
-      <li>
-        <Link href="/salir" sx={{ textDecoration: "none", color: "#1976d2" }}>
-          Cerrar sesión en Balaxys
-        </Link>
-      </li>
+   
     </ul>
   </Typography>
   <Divider sx={{ margin: "16px 0" }} />

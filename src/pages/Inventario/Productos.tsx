@@ -333,8 +333,8 @@ const Productos = () => {
             <ul>
              
               <li><Link href="/inventario">Gestionar inventarios</Link></li>
-              <li><Link href="/productos-orden-compra">Crear una orden de compra</Link></li>
-              <li><Link href="/productos-listas-precios">Consultas de precios y descuentos</Link></li>
+              <li><Link href="/proveedores/orden-de-compra">Crear una orden de compra</Link></li>
+      
             </ul>
           </Typography>
           <Divider sx={{ margin: "16px 0" }} />
