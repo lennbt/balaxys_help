@@ -1,7 +1,4 @@
 // src/pages/Catalogos/AtributoProductos.tsx
-import { Link as RouterLink } from "react-router-dom";
-import { Link as MuiLink } from "@mui/material";
-
 import React from "react";
 import {
   Box,
@@ -12,8 +9,6 @@ import {
   ListItemText,
   Divider,
   Stack,
-  TextField,
-  Button,
 } from "@mui/material";
 
 const AtributoProductos: React.FC = () => {

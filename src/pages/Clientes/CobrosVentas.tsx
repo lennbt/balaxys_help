@@ -1,7 +1,4 @@
 // src/pages/Ventas/AyudaCobrosVenta.tsx
-import { Link as RouterLink } from "react-router-dom";
-import { Link as MuiLink } from "@mui/material";
-
 import React from "react";
 import {
   Box,

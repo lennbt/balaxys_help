@@ -1,8 +1,6 @@
 
 import { Box, Typography, Card, CardContent } from "@mui/material";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight"; // Importa el ícono de flecha
-import { Link as RouterLink } from "react-router-dom";
-import { Link as MuiLink } from "@mui/material";
 
 
 const gettingStartedDetails = [

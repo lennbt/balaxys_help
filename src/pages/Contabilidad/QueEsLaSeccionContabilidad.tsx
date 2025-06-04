@@ -2,7 +2,6 @@
 
 import React from "react";
 import { Box, Typography, List, ListItem, ListItemText, Divider, Link as MuiLink } from "@mui/material";
-import { Link as RouterLink } from "react-router-dom";
 
 /**
  * ¿Qué es la sección “Contabilidad” en Balaxys?

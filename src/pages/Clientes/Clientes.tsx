@@ -1,7 +1,4 @@
 // src/pages/Clientes/SalesDetail.tsx
-import { Link as RouterLink } from "react-router-dom";
-import { Link as MuiLink } from "@mui/material";
-
 import React from "react";
 import { Box, Typography, Card, CardContent } from "@mui/material";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";

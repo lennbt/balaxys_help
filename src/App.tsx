@@ -1,12 +1,11 @@
 // src/App.tsx
 
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
-  useNavigate,
 } from "react-router-dom";
 import { Box } from "@mui/material";
 import { HelmetProvider } from "react-helmet-async";

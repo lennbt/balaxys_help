@@ -1,6 +1,6 @@
 // src/components/Navbar.tsx
 
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import { AppBar, Toolbar, Typography, TextField, InputAdornment } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import { useNavigate, useLocation } from "react-router-dom";
